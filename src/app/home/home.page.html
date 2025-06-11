@@ -1,21 +1,44 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title> Blank </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content [fullscreen]="true" class="ion-padding" color="warning">
+  <p>
+    Are you all right? What's wrong? I felt a great disturbance in the Force...as if millions of voices suddenly cried
+    out in terror and were suddenly silenced. I fear something terrible has happened. You'd better get on with your
+    exercises. Well, you can forget your troubles with those Imperial slugs.
+  </p>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <p>
+    Did you hear that? They've shut down the main reactor. We'll be destroyed for sure. This is madness! We're doomed!
+    There'll be no escape for the Princess this time. What's that? Artoo! Artoo-Detoo, where are you? At last! Where
+    have you been? They're heading in this direction.
+  </p>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>
-      Start with Ionic
-      <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a>
-    </p>
-  </div>
+  <p>Enter your data here, and we will get it all sorted out.</p>
+
+  <ion-list>
+    <ion-item>
+      <ion-input label="Username" label-placement="floating"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Password" label-placement="floating" type="password"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="First Name" label-placement="floating"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Last Name" label-placement="floating"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Call Sign" label-placement="floating" type="password"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Sidekick" label-placement="floating"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Rebel Group Affiliation" label-placement="floating"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <ion-button expand="full" (click)="getHelp()">Request Jedi Help</ion-button>
+      </ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>
