@@ -5,7 +5,7 @@ const config: CapacitorConfig = {
   appName: 'issue-53807',
   webDir: 'www',
   android: {
-    adjustMarginsForEdgeToEdge: 'auto',
+    adjustMarginsForEdgeToEdge: 'force',
   },
   plugins: {
     StatusBar: {
