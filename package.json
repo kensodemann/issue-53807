@@ -27,7 +27,7 @@
     "@capacitor/core": "^7.4.2",
     "@capacitor/haptics": "7.0.1",
     "@capacitor/ios": "^7.4.2",
-    "@capacitor/keyboard": "7.0.1",
+    "@capacitor/keyboard": "^7.0.2-dev-2382-20250707T184332.0",
     "@capacitor/status-bar": "7.0.1",
     "@ionic/angular": "^8.0.0",
     "ionicons": "^8.0.9",
